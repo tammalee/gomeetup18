@@ -35,7 +35,7 @@ icon = "fa-envelope"
 link = "#"
 title = "Email"
 [params.hero]
-buttontext = "...okay"
+buttontext = "Go on..."
 description = "Everything you could ever want to know"
 title = "Tammalee"
 type = "hero"
