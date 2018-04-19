@@ -37,7 +37,7 @@ title = "Tammalee"
 type = "hero"
 [[params.block]]
 buttontext = "next"
-description = "I am a senior web developer specializing in WordPress, education, and mentoring. "
+description = "I am a senior web developer specializing in WordPress, education, and mentoring. And eating!"
 id = "about"
 picture = "/uploads/2018/04/19/autumnleavesbluesky.jpg"
 title = "Who am I"
