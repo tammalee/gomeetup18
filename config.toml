@@ -1,155 +1,83 @@
-# Site settings
 baseurl = "https://www.example.com"
-languageCode = "en-us"
-title = "Highlights"
-theme = "hugo-highlights-theme"
-
-# Enter your tracking code to enable Google analytics
 googleAnalytics = "UA-1740938-12"
-
+languageCode = "en-us"
+theme = "hugo-highlights-theme"
+title = "Highlights"
 [params]
-
-  # You can use Markdown for urls [text](//domain.tld/source)
-  #
-  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons.
-
-  # To provide more meta data for search engings feel free to add a few informations.
-  # This lines will be inserted as meta tags.
-  name = "Tammalee"
-  description = "All about Tammalee"
-
-  # For a static site it's not possible to provide a contact form. The contact form uses
-  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
-  # Visitors can send up to a 1000 emails each month
-  #
-  # How to setup formspree
-  #
-  # - set your email address under 'email' below
-  # - upload the generated site to your server
-  # - send a dummy email to yourself to confirm your account
-  # - click the confirmation link in the email from www.formspree.io
-  # - That's all. Enjoy mailing!
-  email = "tammalee@gmail.com"
-
-  # If this param is set to true, every section gets an own background image (located at static/images)
-  # to change the image you could use the param picture on every section.
-  # If it's disabled you could change the background to overwrite the bg.png and overlay.png to set the background.
-  backgroundpersection = true
-
-  # hero Section
-  [params.hero]
-    type = "hero"
-    title = "Tammalee"
-    description = "Everything you could ever want to know"
-    buttontext = "...okay"
-
-  # about section
-  [[params.block]]
-    id = "about"
-    type = "text"
-    title = "Who am I"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
-    buttontext = "next"
-    # the picture is storead at static/images/
-    picture = "pic01.jpg"
-
-  # skill section
-  [[params.block]]
-    id = "skills"
-    type = "list"
-    title = "Stuff I do"
-    description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
-    buttontext = "next"
-    # the picture is storead at static/images/
-    picture = "pic02.jpg"
-
-    [[params.block.item]]
-      icon = "fa-camera-retro"
-      title = "Magna Etiam"
-
-    [[params.block.item]]
-      icon = "fa-pencil"
-      title = "Lorem Ipsum"
-
-    [[params.block.item]]
-      icon = "fa-code"
-      title = "Nulla Tempus"
-
-    [[params.block.item]]
-      icon = "fa-coffee"
-      title = "Sed Feugiat"
-
-  # infos section
-  [[params.block]]
-    id = "infos"
-    type = "text"
-    title = "One more thing"
-    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
-    # the picture is storead at static/images/
-    picture = "pic03.jpg"
-
-#  # custom section
-#  [[params.block]]
-#    id = "important"
-#    # to make custom section copy <theme>/layouts/partials/text.html to /layouts/partials/custom.html and edit it according to your needs.
-#    type = "custom"
-#    title = "Don't forget"
-#    description = "Curabitur massa ante, semper at massa et, semper pellentesque velit. Duis tempor est nisi, a gravida risus malesuada eget. Nunc rutrum arcu laoreet mauris sodales vehicula. Nunc iaculis felis ac dui egestas, vel ullamcorper tellus bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia sem porttitor, fringilla metus at, convallis quam. Integer convallis a justo non pellentesque."
-#    # the picture is storead at static/images/
-#    picture = "pic04.jpg"
-
-  # contact form
-  [[params.block]]
-    id = "contact"
-    type = "contact"
-    title = "Get in Touch"
-    picture = "pic05.jpg"
-
-    [params.block.form]
-      name = "Name"
-      email = "Your Email"
-      message = "Your Message"
-      buttontext = "send message"
-
-  # footer section
-  # this section includes last block and social icons
-
-  [params.footer]
-    enable = true
-
-    # social icons
-    [params.footer.social_list]
-      enable = true
-
-      [[params.footer.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        link = "https://twitter.com/tammalee"
-
-      [[params.footer.social]]
-        title = "Tumblr"
-        icon = "fa-tumblr"
-        link = "http://tammalee.tumblr.com"
-
-      [[params.footer.social]]
-        title = "Instagramm"
-        icon = "fa-instagram"
-        link = "https://www.instagram.com/tammalee/"
-
-      [[params.footer.social]]
-        title = "Email"
-        icon = "fa-envelope"
-        link = "#"
-
-    # copyright
-    #[params.footer.copyright.notice]
-
-      [[params.footer.copyright.notice]]
-        text = "© Untitled"
-
-      [[params.footer.copyright.notice]]
-        text = "Design: [HTML5UP](//html5up.net)"
-
-      [[params.footer.copyright.notice]]
-        text = "Demo Images: [Unsplash](//unsplash.com/)"
+backgroundpersection = true
+description = "All about Tammalee"
+email = "tammalee@gmail.com"
+name = "Tammalee"
+[params.footer]
+enable = true
+[[params.footer.copyright.notice]]
+text = "© Untitled"
+[[params.footer.copyright.notice]]
+text = "Design: [HTML5UP](//html5up.net)"
+[[params.footer.copyright.notice]]
+text = "Demo Images: [Unsplash](//unsplash.com/)"
+[params.footer.social_list]
+enable = true
+[[params.footer.social]]
+icon = "fa-twitter"
+link = "https://twitter.com/tammalee"
+title = "Twitter"
+[[params.footer.social]]
+icon = "fa-tumblr"
+link = "http://tammalee.tumblr.com"
+title = "Tumblr"
+[[params.footer.social]]
+icon = "fa-instagram"
+link = "https://www.instagram.com/tammalee/"
+title = "Instagramm"
+[[params.footer.social]]
+icon = "fa-envelope"
+link = "#"
+title = "Email"
+[params.hero]
+buttontext = "...okay"
+description = "Everything you could ever want to know"
+title = "Tammalee"
+type = "hero"
+[[params.block]]
+buttontext = "next"
+description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+id = "about"
+picture = "pic01.jpg"
+title = "Who am I"
+type = "text"
+[[params.block]]
+buttontext = "next"
+description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
+id = "skills"
+picture = "pic02.jpg"
+title = "Stuff I do"
+type = "list"
+[[params.block.item]]
+icon = "fa-camera-retro"
+title = "Magna Etiam"
+[[params.block.item]]
+icon = "fa-pencil"
+title = "Lorem Ipsum"
+[[params.block.item]]
+icon = "fa-code"
+title = "Nulla Tempus"
+[[params.block.item]]
+icon = "fa-coffee"
+title = "Sed Feugiat"
+[[params.block]]
+description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+id = "infos"
+picture = "pic03.jpg"
+title = "One more thing"
+type = "text"
+[[params.block]]
+id = "contact"
+picture = "pic05.jpg"
+title = "Get in Touch"
+type = "contact"
+[params.block.form]
+buttontext = "send message"
+email = "Your Email"
+message = "Your Message"
+name = "Name"
