@@ -30,10 +30,6 @@ title = "Tumblr"
 icon = "fa-instagram"
 link = "https://www.instagram.com/tammalee/"
 title = "Instagramm"
-[[params.footer.social]]
-icon = "fa-envelope"
-link = "#"
-title = "Email"
 [params.hero]
 buttontext = "Go on..."
 description = "Everything you could ever want to know"
