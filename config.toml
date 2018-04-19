@@ -44,7 +44,7 @@ title = "Who am I"
 type = "text"
 [[params.block]]
 buttontext = "next"
-description = "I can make up songs, improvise recipes, and make bawdy jokes! Woo!"
+description = "I can make up songs, improvise recipes, and make bawdy jokes! Woo! laugh dammit!"
 id = "skills"
 picture = "pic02.jpg"
 title = "Stuff I do"
