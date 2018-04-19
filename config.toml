@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.example.com"
+baseurl = "http://go.tammalee.com/public/"
 languageCode = "en-us"
 title = "Highlights"
 theme = "hugo-highlights-theme"
