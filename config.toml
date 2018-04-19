@@ -1,7 +1,5 @@
 # Site settings
 baseurl = "http://go.tammalee.com/public/"
-=======
-baseurl = "https://www.example.com"
 googleAnalytics = "UA-1740938-12"
 languageCode = "en-us"
 theme = "hugo-highlights-theme"
