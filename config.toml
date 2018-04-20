@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://go.tammalee.com/"
+baseurl = "http://go.tammalee.com/public/"
 googleAnalytics = "UA-1740938-12"
 languageCode = "en-us"
 theme = "hugo-highlights-theme"
