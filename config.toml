@@ -5,7 +5,7 @@ theme = "hugo-highlights-theme"
 title = "Highlights"
 [params]
 backgroundpersection = true
-description = "All about Tammalee"
+description = "Some Tammalee Facts"
 email = "tammalee@gmail.com"
 name = "Tammalee"
 [params.footer]
